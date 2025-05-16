@@ -15,6 +15,11 @@ It means that they are both connected to the same RabbitMQ server in local. This
 ![image](https://github.com/user-attachments/assets/5659410d-470e-4a65-bc09-e1b83af10974)
 
 ### Sending and processing event
+The publisher and subscriber are connected to the same RabbitMQ server. So, whenever the publisher sends data, the subscriber will receive them.
 ![Screenshot (251)](https://github.com/user-attachments/assets/f516214c-249e-49a7-93fd-34b308040c46)
 ![Screenshot (250)](https://github.com/user-attachments/assets/3508b256-a5f3-44e9-ab48-b34c1c29f38f)
-The publisher and subscriber are connected to the same RabbitMQ server. So, whenever the publisher sends data, the subscriber will receive them.
+
+### Monitoring chart based on publisher
+When we run the publisher, more messages are being published to the broker. The spike indicates a sudden surge in the rate at which messages are being published to the broker by the publisher and subsequently delivered to the subscribers.
+![image](https://github.com/user-attachments/assets/2f9a9bd8-d28c-4cdf-88e0-0de2a46a4b29)
+
