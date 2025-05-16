@@ -1,4 +1,4 @@
-# Advprog Tutorial 9 - Subscriber
+# Advprog Tutorial 9 - Publisher
 ## Priscilla Natanael Surjanto - 2306152153
 
 ### Understanding publisher and message broker.
