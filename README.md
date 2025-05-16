@@ -1,0 +1,13 @@
+# Advprog Tutorial 9 - Subscriber
+## Priscilla Natanael Surjanto - 2306152153
+
+### Understanding publisher and message broker.
+
+#### 1. How much data your publisher program will send to the message broker in one run?
+
+In one run, the publisher sends 5 data/messages to the message broker.
+
+#### 2. The url of: `amqp://guest:guest@localhost:5672` is the same as in the subscriber program, what does it mean?
+
+It means that they are both connected to the same RabbitMQ server in local. This allows them to exchange messages through RabbitMQ by publishing and consuming messages from queues in the same broker.
+
