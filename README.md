@@ -11,3 +11,7 @@ In one run, the publisher sends 5 data/messages to the message broker.
 
 It means that they are both connected to the same RabbitMQ server in local. This allows them to exchange messages through RabbitMQ by publishing and consuming messages from queues in the same broker.
 
+### Running RabbitMQ as message broker
+![image](https://github.com/user-attachments/assets/5659410d-470e-4a65-bc09-e1b83af10974)
+
+
