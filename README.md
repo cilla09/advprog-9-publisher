@@ -14,4 +14,7 @@ It means that they are both connected to the same RabbitMQ server in local. This
 ### Running RabbitMQ as message broker
 ![image](https://github.com/user-attachments/assets/5659410d-470e-4a65-bc09-e1b83af10974)
 
-
+### Sending and processing event
+![Screenshot (251)](https://github.com/user-attachments/assets/f516214c-249e-49a7-93fd-34b308040c46)
+![Screenshot (250)](https://github.com/user-attachments/assets/3508b256-a5f3-44e9-ab48-b34c1c29f38f)
+The publisher and subscriber are connected to the same RabbitMQ server. So, whenever the publisher sends data, the subscriber will receive them.
